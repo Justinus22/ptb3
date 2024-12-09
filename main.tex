@@ -31,20 +31,12 @@
    ]{hyperref} %Verlinkungen
 \usepackage[figure]{hypcap}
 \usepackage[ngerman]{translator}
-\usepackage{blindtext} % Lorem-Ipsum-Plugin
 \usepackage[acronym, nonumberlist, toc, translate=babel]{glossaries} %% Glossar mit Akronymen laden und mit babel auf deutsch anzeigen
-%\usepackage[
-	%nonumberlist, %keine Seitenzahlen anzeigen
-	%acronym,      %ein Abkürzungsverzeichnis erstellen
-	%toc,          %Einträge im Inhaltsverzeichnis
-	%section      %im Inhaltsverzeichnis auf section-Ebene erscheinen
-	%]
-%{glossaries}
 
 \usepackage{csquotes}
 \usepackage[]{bookmark}
 \usepackage{scrhack}
-
+      
 \usepackage{listings,xcolor} %Codeanzeige
 \usepackage[normalem]{ulem}
 \useunder{\uline}{\ul}{}
@@ -55,7 +47,10 @@
 
 \usepackage{subfiles}
 
-\usepackage{biblatex}
+\usepackage[
+backend=biber,
+style=apa,
+]{biblatex}
 \addbibresource{lit.bib}
 
 \definecolor{dkgreen}{rgb}{0,.6,0}
@@ -134,14 +129,14 @@
 
 
 
-% Den Punkt am Ende der Glossareinträge deaktivieren
+% Den Punkt am Ende der Glossar-Einträge deaktivieren
 \renewcommand*{\glspostdescription}{}
 
 %Glossar-Befehle anschalten
-\makenoidxglossaries{}
+\makenoidxglossaries
 \loadglsentries{glossar.tex}
 
-% sorgt dafür, dass bei Leerzeile die Einrückung verhindert und stattdessen eine Leerzeile eingefügt wird % erspart bigskips und erhöht die Lesbarkeit im LaTeX-Text 
+% sorgt dafür, dass bei Leerzeile die Einrückung verhindert und stattdessen eine Leerzeile eingefügt wird % erspart große Sprünge und erhöht die Lesbarkeit im LaTeX-Text 
 \KOMAoptions{parskip=full*}
 
 % ändert Titelschriftart in Serifen-Normalschriftart
@@ -177,8 +172,8 @@
 % falsche Default-Silbentrennung überschreiben
 %\include{hyphenation}
 
-% keine Silbentrennung sonder space zwischen den Wörtern nutzen, wie Blick Absatz in word 
-\spaceskip=0.3em plus 4em minus 0.2em
+% keine Silbentrennung sondern space zwischen den Wörtern nutzen, wie Block Absatz in word 
+\spaceskip=0.3em plus 4.5em minus 0.3em
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%>>>>>>>
 %%%%%%%%%%% Titelblatt
@@ -252,7 +247,7 @@ Der Bericht ist nur den Gutachtern und des Mitgliedern des Prüfungsausschlusses
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%% Dokumenteninhalt START
+%%%%%%%%%%% START
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -285,7 +280,8 @@ Diese Formulierungen umfassen gleichermaßen weibliche und männliche Personen.
 %\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
 
 
-\printnoidxglossaries{}
+\printnoidxglossary{}
+\printacronyms{}
 
 \clearpage
 
@@ -298,6 +294,41 @@ Diese Formulierungen umfassen gleichermaßen weibliche und männliche Personen.
 \chapter{Einleitung}\label{ch:einleitung}
 \subfile{chapter/einleitung.tex}
 
+\chapter{Theoretische Betrachtung}\label{ch:theroy}
+\subfile{chapter/therory.tex}
+
+\section{Ebenen der Kundenkommunikation}\label{sec:ebenen}
+\subfile{section/ebenen.tex}
+
+\section{Herausforderungen}\label{sec:herausforderungen}
+\subfile{section/herausforderungen.tex}
+
+\subsection{Verständnis}\label{subsec:verstaendins}
+\subfile{subsection/verständnis.tex}
+
+\subsection{Anforderungen}\label{subsec:anforderungen}
+\subfile{subsection/anforderungen.tex}
+
+
+\subsection{Umgebungsbedingungen}\label{subsec:umgebung}
+\subfile{subsection/umgebung.tex}
+
+\section{Besonderheiten im Analytics Consulting}\label{sec:besonderheiten}
+\subfile{section/besonderheiten.tex}
+
+\chapter{Umfrage zu Herausforderungen}\label{ch:umfrage}
+\subfile{chapter/umfrage.tex}
+
+\section{Aufbau}\label{sec:aufbau}
+\subfile{section/aufbau.tex}
+
+\section{Auswertung}\label{sec:auswertung}
+\subfile{section/auswertung.tex}
+
+\section{Bewertung}\label{sec:bewertung}
+\subfile{section/bewertung.tex}
+
+
 \chapter{Fazit}\label{ch:fazit}
 \subfile{chapter/fazit.tex}
 
@@ -305,9 +336,8 @@ Diese Formulierungen umfassen gleichermaßen weibliche und männliche Personen.
 % Quellen
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \spaceskip=0.3em plus 0.5em minus 0.2em
-\printbibliography
+\printbibliography{}
 
-%% \bibliographystyle{alpha} %% tu es nicht, niemals, das ist eklig, nicht einkommentieren
 
 \chapter*{Ehrenwörtliche Erklärung}
 \addcontentsline{toc}{chapter}{Ehrenwörtliche Erklärung}
