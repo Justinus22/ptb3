@@ -1,7 +1,62 @@
 \documentclass[../main.tex]{subfiles}
 \begin{document}
 
+\begin{center}
+\begin{tikzpicture}
+    \begin{axis}[
+        boxplot/draw direction=y,
+        x=0.8cm,
+        ytick={1,2,3,4,5},
+        xtick={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15},
+        axis x line*=bottom,
+        axis y line*=left,
+        enlarge x limits,
+        boxplot/average={auto},
+        boxplot/every average/.style={mark=*},
+        ]
+        \addplot [boxplot] table[y index=0] {data.dat};
+        \addplot [boxplot] table[y index=1] {data.dat};
+        \addplot [boxplot] table[y index=2] {data.dat};
+        \addplot [boxplot] table[y index=3] {data.dat};
+        \addplot [boxplot] table[y index=4] {data.dat};
+        \addplot [boxplot] table[y index=5] {data.dat};
+        \addplot [boxplot] table[y index=6] {data.dat};
+        \addplot [boxplot] table[y index=7] {data.dat};
+        \addplot [boxplot] table[y index=8] {data.dat};
+        \addplot [boxplot] table[y index=9] {data.dat};
+        \addplot [boxplot] table[y index=10] {data.dat};
+        \addplot [boxplot] table[y index=11] {data.dat};
+        \addplot [boxplot] table[y index=12] {data.dat};
+        \addplot [boxplot] table[y index=13] {data.dat};
+        \addplot [boxplot] table[y index=14] {data.dat};
+    \end{axis}
+\end{tikzpicture}
+\end{center}
+\begin{center}
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=15cm,
+            view={60}{45},
+            zmin=-0.001,
+            area plot/.style={
+                fill opacity=0.6,
+                draw=cyan,
+                fill=cyan,
+                mark=none,
+            },
+            ytick={1,...,15},
+            yticklabel=Q\pgfmathprintnumber{\tick},
+        ]
+        \pgfplotsinvokeforeach{8,7,...,1}{
+            \addplot3 [area plot] table [
+                x expr=\coordindex, y expr=#1, z=Q#1,
+            ] {data3d.dat} \closedcycle;
+        }
+        \end{axis}
+    \end{tikzpicture}
+\end{center}
 Hier kommt jetzt die Auswertung der Umfrage Ergebnisse. Da kann ich vielleicht ein paar schöne Grafiken erstellen.
+
 
 \end{document}
 

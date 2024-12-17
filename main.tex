@@ -49,6 +49,9 @@
 
 \usepackage{subfiles}
 
+\usepackage{filecontents}
+\usepackage{pgfplotstable}
+
 \usepackage[
 backend=biber,
 style=apa,
@@ -167,6 +170,22 @@ style=apa,
   \input{#1-words.sum}%
 }
 
+\newcounter{rowcntr}[table]
+\renewcommand{\therowcntr}{\arabic{rowcntr}.}
+
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+% A new columntype to apply automatic stepping
+\newcolumntype{N}{>{\refstepcounter{rowcntr}\therowcntr}R{0.6cm}}
+
+% Reset the rowcntr counter at each new tabular
+\AtBeginEnvironment{tabular}{\setcounter{rowcntr}{0}}
+
+
+\pgfplotsset{compat=newest}
+\usepgfplotslibrary{statistics}
+\usetikzlibrary{plotmarks}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -210,10 +229,7 @@ style=apa,
 	\textbf{\normalsize{Betreuer Hochschule:}} & \normalsize{\betreuerHS} \tabularnewline%
 	\textbf{\normalsize{Wortanzahl:}} & \normalsize{\quickwordcount{main}}
 	\end{tabular}
-    
-
 }
-
 
 \titlehead{\begin{center}
     \includegraphics[scale=0.7]{bilder/header_logo.PNG}

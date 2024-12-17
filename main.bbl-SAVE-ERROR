@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,249 +18,1730 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{SecurityVulnerabilities}{online}{}
-      \name{author}{1}{}{%
-        {{hash=2a48ef379b58726d21c68c84f9272162}{%
-           family={Ahuja},
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{appelbaum2005critical}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3f5750d4ba40e3a408ed466fcbe737d6}{%
+           family={Appelbaum},
            familyi={A\bibinitperiod},
-           given={Dharmendra},
-           giveni={D\bibinitperiod}}}%
+           given={Steven\bibnamedelima H},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b5b072e639ca18631a2b28f006f5e9d}{%
+           family={Steed},
+           familyi={S\bibinitperiod},
+           given={Anthony\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{2a48ef379b58726d21c68c84f9272162}
-      \strng{fullhash}{2a48ef379b58726d21c68c84f9272162}
-      \strng{bibnamehash}{2a48ef379b58726d21c68c84f9272162}
-      \strng{authorbibnamehash}{2a48ef379b58726d21c68c84f9272162}
-      \strng{authornamehash}{2a48ef379b58726d21c68c84f9272162}
-      \strng{authorfullhash}{2a48ef379b58726d21c68c84f9272162}
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited}%
+      }
+      \strng{namehash}{8454ca6fa65718dcaeeff194d412918f}
+      \strng{fullhash}{8454ca6fa65718dcaeeff194d412918f}
+      \strng{fullhashraw}{8454ca6fa65718dcaeeff194d412918f}
+      \strng{bibnamehash}{8454ca6fa65718dcaeeff194d412918f}
+      \strng{authorbibnamehash}{8454ca6fa65718dcaeeff194d412918f}
+      \strng{authornamehash}{8454ca6fa65718dcaeeff194d412918f}
+      \strng{authorfullhash}{8454ca6fa65718dcaeeff194d412918f}
+      \strng{authorfullhashraw}{8454ca6fa65718dcaeeff194d412918f}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Python Security Made Easy: Fixing Security Vulnerabilities with Checkmarx !}
-      \field{urlday}{19}
-      \field{urlmonth}{3}
-      \field{urlyear}{2024}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://medium.com/@dharmendradevops11/python-security-made-easy-fixing-security-vulnerabilities-with-checkmarx-aa7b3ff28b7a
-      \endverb
-      \verb{url}
-      \verb https://medium.com/@dharmendradevops11/python-security-made-easy-fixing-security-vulnerabilities-with-checkmarx-aa7b3ff28b7a
-      \endverb
+      \field{journaltitle}{Journal of management development}
+      \field{number}{1}
+      \field{title}{The critical success factors in the client-consulting relationship}
+      \field{volume}{24}
+      \field{year}{2005}
+      \field{pages}{68\bibrangedash 93}
+      \range{pages}{26}
     \endentry
-    \entry{SAPUsability}{online}{}
+    \entry{bano2014aligning}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=7e51fa13213aa470285bfdc6f075b57d}{%
-           family={Biermann},
+        {{un=0,uniquepart=base,hash=7e3e8ad40e7f47d137934d249ef810cf}{%
+           family={Bano},
            familyi={B\bibinitperiod},
-           given={Ingo},
-           giveni={I\bibinitperiod}}}%
+           given={Muneera},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{7e51fa13213aa470285bfdc6f075b57d}
-      \strng{fullhash}{7e51fa13213aa470285bfdc6f075b57d}
-      \strng{bibnamehash}{7e51fa13213aa470285bfdc6f075b57d}
-      \strng{authorbibnamehash}{7e51fa13213aa470285bfdc6f075b57d}
-      \strng{authornamehash}{7e51fa13213aa470285bfdc6f075b57d}
-      \strng{authorfullhash}{7e51fa13213aa470285bfdc6f075b57d}
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7e3e8ad40e7f47d137934d249ef810cf}
+      \strng{fullhash}{7e3e8ad40e7f47d137934d249ef810cf}
+      \strng{fullhashraw}{7e3e8ad40e7f47d137934d249ef810cf}
+      \strng{bibnamehash}{7e3e8ad40e7f47d137934d249ef810cf}
+      \strng{authorbibnamehash}{7e3e8ad40e7f47d137934d249ef810cf}
+      \strng{authornamehash}{7e3e8ad40e7f47d137934d249ef810cf}
+      \strng{authorfullhash}{7e3e8ad40e7f47d137934d249ef810cf}
+      \strng{authorfullhashraw}{7e3e8ad40e7f47d137934d249ef810cf}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{SAP Usability}
-      \field{urlday}{22}
-      \field{urlmonth}{3}
-      \field{urlyear}{2024}
-      \field{year}{2017}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://mindsquare.de/knowhow/sap-usability/
-      \endverb
-      \verb{url}
-      \verb https://mindsquare.de/knowhow/sap-usability/
-      \endverb
+      \field{journaltitle}{2014 IEEE 22nd International Requirements Engineering Conference (RE)}
+      \field{title}{Aligning services and requirements with user feedback}
+      \field{year}{2014}
+      \field{pages}{473\bibrangedash 478}
+      \range{pages}{6}
     \endentry
-    \entry{CorporateFactSheet}{report}{}
-      \name{author}{1}{}{%
-        {{hash=ee76429c6678dfb345fff26d210234c5}{%
-           family={Cummunications},
+    \entry{bjarnason2017role}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7122de7a9d5de51fcaf6c0ef57cf4d29}{%
+           family={Bjarnason},
+           familyi={B\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c13b944e2b68ee928fb824b303ed11f}{%
+           family={Sharp},
+           familyi={S\bibinitperiod},
+           given={Helen},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{97edc4e1788e7c3887af93b7b755d381}
+      \strng{fullhash}{97edc4e1788e7c3887af93b7b755d381}
+      \strng{fullhashraw}{97edc4e1788e7c3887af93b7b755d381}
+      \strng{bibnamehash}{97edc4e1788e7c3887af93b7b755d381}
+      \strng{authorbibnamehash}{97edc4e1788e7c3887af93b7b755d381}
+      \strng{authornamehash}{97edc4e1788e7c3887af93b7b755d381}
+      \strng{authorfullhash}{97edc4e1788e7c3887af93b7b755d381}
+      \strng{authorfullhashraw}{97edc4e1788e7c3887af93b7b755d381}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Requirements Engineering}
+      \field{title}{The role of distances in requirements communication: a case study}
+      \field{volume}{22}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 26}
+      \range{pages}{26}
+    \endentry
+    \entry{chakrabarti2004identification}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e5d508518a35c7d540748740a84b813c}{%
+           family={Chakrabarti},
            familyi={C\bibinitperiod},
-           given={SAP\bibnamedelimb Globale\bibnamedelima Corporate},
-           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+           given={Amaresh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67bd41cdf721c9f607c0d583fe844ed6}{%
+           family={Morgenstern},
+           familyi={M\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ab43356abf6f933d2e28602b16ee99f}{%
+           family={Knaab},
+           familyi={K\bibinitperiod},
+           given={Helge},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
-      \list{institution}{1}{%
-        {SAP SE}%
+      \list{publisher}{1}{%
+        {Springer}%
       }
-      \strng{namehash}{ee76429c6678dfb345fff26d210234c5}
-      \strng{fullhash}{ee76429c6678dfb345fff26d210234c5}
-      \strng{bibnamehash}{ee76429c6678dfb345fff26d210234c5}
-      \strng{authorbibnamehash}{ee76429c6678dfb345fff26d210234c5}
-      \strng{authornamehash}{ee76429c6678dfb345fff26d210234c5}
-      \strng{authorfullhash}{ee76429c6678dfb345fff26d210234c5}
+      \strng{namehash}{2882ce7542ca8d601ef01aec2bd2e9c5}
+      \strng{fullhash}{113a25159f487899f8b3b227bf4fdd24}
+      \strng{fullhashraw}{113a25159f487899f8b3b227bf4fdd24}
+      \strng{bibnamehash}{113a25159f487899f8b3b227bf4fdd24}
+      \strng{authorbibnamehash}{113a25159f487899f8b3b227bf4fdd24}
+      \strng{authornamehash}{2882ce7542ca8d601ef01aec2bd2e9c5}
+      \strng{authorfullhash}{113a25159f487899f8b3b227bf4fdd24}
+      \strng{authorfullhashraw}{113a25159f487899f8b3b227bf4fdd24}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{SAP Corporate Fact Sheet}
-      \field{type}{techreport}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://www.sap.com/documents/2017/04/4666ecdd-b67c-0010-82c7-eda71af511fa.html
-      \endverb
-      \verb{url}
-      \verb https://www.sap.com/documents/2017/04/4666ecdd-b67c-0010-82c7-eda71af511fa.html
-      \endverb
+      \field{journaltitle}{Research in engineering design}
+      \field{title}{Identification and application of requirements and their impact on the design process: a protocol study}
+      \field{volume}{15}
+      \field{year}{2004}
+      \field{pages}{22\bibrangedash 39}
+      \range{pages}{18}
     \endentry
-    \entry{SASTTools}{online}{}
+    \entry{cornelissen2023corporate}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=34bb981fb9871cd8faa7b1f60cd167b9}{%
-           family={John\bibnamedelima Breeden},
-           familyi={J\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Florian\bibnamedelima Maler},
-           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=faadfe852dc93161422df49dbf2dabf6}{%
+           family={Cornelissen},
+           familyi={C\bibinitperiod},
+           given={Joep\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{34bb981fb9871cd8faa7b1f60cd167b9}
-      \strng{fullhash}{34bb981fb9871cd8faa7b1f60cd167b9}
-      \strng{bibnamehash}{34bb981fb9871cd8faa7b1f60cd167b9}
-      \strng{authorbibnamehash}{34bb981fb9871cd8faa7b1f60cd167b9}
-      \strng{authornamehash}{34bb981fb9871cd8faa7b1f60cd167b9}
-      \strng{authorfullhash}{34bb981fb9871cd8faa7b1f60cd167b9}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \list{publisher}{1}{%
+        {SAGE Publications Ltd}%
+      }
+      \strng{namehash}{faadfe852dc93161422df49dbf2dabf6}
+      \strng{fullhash}{faadfe852dc93161422df49dbf2dabf6}
+      \strng{fullhashraw}{faadfe852dc93161422df49dbf2dabf6}
+      \strng{bibnamehash}{faadfe852dc93161422df49dbf2dabf6}
+      \strng{authorbibnamehash}{faadfe852dc93161422df49dbf2dabf6}
+      \strng{authornamehash}{faadfe852dc93161422df49dbf2dabf6}
+      \strng{authorfullhash}{faadfe852dc93161422df49dbf2dabf6}
+      \strng{authorfullhashraw}{faadfe852dc93161422df49dbf2dabf6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Die besten DAST- und SAST-Tools}
-      \field{urlday}{19}
-      \field{urlmonth}{3}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.csoonline.com/de/a/die-besten-dast-und-sast-tools,3673878
-      \endverb
-      \verb{url}
-      \verb https://www.csoonline.com/de/a/die-besten-dast-und-sast-tools,3673878
-      \endverb
+      \field{title}{Corporate communication: A guide to theory and practice}
+      \field{year}{2023}
     \endentry
-    \entry{CloudProContra}{online}{}
+    \entry{cothran2005developing}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d63dae696081dfdc88e1f130a4315d00}{%
+           family={Cothran},
+           familyi={C\bibinitperiod},
+           given={Henry\bibnamedelima M},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa4f185b05199b7d5a0c243a7d7ec577}{%
+           family={Wysocki},
+           familyi={W\bibinitperiod},
+           given={Allen\bibnamedelima F},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{644cbbe0002edafae51709905fb1277e}
+      \strng{fullhash}{644cbbe0002edafae51709905fb1277e}
+      \strng{fullhashraw}{644cbbe0002edafae51709905fb1277e}
+      \strng{bibnamehash}{644cbbe0002edafae51709905fb1277e}
+      \strng{authorbibnamehash}{644cbbe0002edafae51709905fb1277e}
+      \strng{authornamehash}{644cbbe0002edafae51709905fb1277e}
+      \strng{authorfullhash}{644cbbe0002edafae51709905fb1277e}
+      \strng{authorfullhashraw}{644cbbe0002edafae51709905fb1277e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EDIS}
+      \field{number}{14}
+      \field{title}{Developing SMART Goals for Your Organization: FE577/FE577, 11/2005}
+      \field{volume}{2005}
+      \field{year}{2005}
+    \endentry
+    \entry{davis2006communication}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=306399708d5073b0cb87725a01416a9f}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Christopher\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=991c1781507c5e0ef310a9ebbcd170c6}{%
+           family={Fuller},
+           familyi={F\bibinitperiod},
+           given={Robert\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1bdccf1dcb2886073421a842142450f}{%
+           family={Tremblay},
+           familyi={T\bibinitperiod},
+           given={Monica\bibnamedelima Chiarini},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8fb497760cdc668a34a663cceda49f7}{%
+           family={Berndt},
+           familyi={B\bibinitperiod},
+           given={Donald\bibnamedelima J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{4fc217b404cdf39cfdaaf4f54866a6f8}
+      \strng{fullhash}{ecd1d1d4a3e33079aeff355693e5cd17}
+      \strng{fullhashraw}{ecd1d1d4a3e33079aeff355693e5cd17}
+      \strng{bibnamehash}{ecd1d1d4a3e33079aeff355693e5cd17}
+      \strng{authorbibnamehash}{ecd1d1d4a3e33079aeff355693e5cd17}
+      \strng{authornamehash}{4fc217b404cdf39cfdaaf4f54866a6f8}
+      \strng{authorfullhash}{ecd1d1d4a3e33079aeff355693e5cd17}
+      \strng{authorfullhashraw}{ecd1d1d4a3e33079aeff355693e5cd17}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computer Information Systems}
+      \field{number}{5}
+      \field{title}{Communication challenges in requirements elicitation and the use of the repertory grid technique}
+      \field{volume}{46}
+      \field{year}{2006}
+      \field{pages}{78\bibrangedash 86}
+      \range{pages}{9}
+    \endentry
+    \entry{gamil2017identification}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9abeda5b228090fc41c83ed51e0420e1}{%
+           family={Gamil},
+           familyi={G\bibinitperiod},
+           given={Yaser},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e775a0a7c10a7a2e11d0b76b89925fff}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Ismail\bibnamedelima Abdul},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{100fe90efda305647345374653b3f1d4}
+      \strng{fullhash}{100fe90efda305647345374653b3f1d4}
+      \strng{fullhashraw}{100fe90efda305647345374653b3f1d4}
+      \strng{bibnamehash}{100fe90efda305647345374653b3f1d4}
+      \strng{authorbibnamehash}{100fe90efda305647345374653b3f1d4}
+      \strng{authornamehash}{100fe90efda305647345374653b3f1d4}
+      \strng{authorfullhash}{100fe90efda305647345374653b3f1d4}
+      \strng{authorfullhashraw}{100fe90efda305647345374653b3f1d4}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Emerging Science Journal}
+      \field{number}{4}
+      \field{title}{Identification of causes and effects of poor communication in construction industry: A theoretical review}
+      \field{volume}{1}
+      \field{year}{2017}
+      \field{pages}{239\bibrangedash 247}
+      \range{pages}{9}
+    \endentry
+    \entry{gupta2020digital}{article}{}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=a6467984269cb87135b6fae0bbd495ae}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Shaphali},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7037df5854ccfa240385b21618162fcd}{%
+           family={Leszkiewicz},
+           familyi={L\bibinitperiod},
+           given={Agata},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a662108e4098710ee8727851db5c5311}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9b9049a2918898fabb6f4e342735ba6}{%
+           family={Bijmolt},
+           familyi={B\bibinitperiod},
+           given={Tammo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a0ce3c3114829b544230893291044b9}{%
+           family={Potapov},
+           familyi={P\bibinitperiod},
+           given={Dmitriy},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{35763d4ce1899d9973d36c37caec5c30}
+      \strng{fullhash}{6c945cacea2e50b32d4a981416d01976}
+      \strng{fullhashraw}{6c945cacea2e50b32d4a981416d01976}
+      \strng{bibnamehash}{6c945cacea2e50b32d4a981416d01976}
+      \strng{authorbibnamehash}{6c945cacea2e50b32d4a981416d01976}
+      \strng{authornamehash}{35763d4ce1899d9973d36c37caec5c30}
+      \strng{authorfullhash}{6c945cacea2e50b32d4a981416d01976}
+      \strng{authorfullhashraw}{6c945cacea2e50b32d4a981416d01976}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Interactive Marketing}
+      \field{number}{1}
+      \field{title}{Digital analytics: Modeling for insights and new methods}
+      \field{volume}{51}
+      \field{year}{2020}
+      \field{pages}{26\bibrangedash 43}
+      \range{pages}{18}
+    \endentry
+    \entry{gupta2020achieving}{article}{}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=0684aa6c8b6be042529df046b846db55}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Shivam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7be7fbf99e6c33c0a1067c1f8fa9194b}{%
+           family={Drave},
+           familyi={D\bibinitperiod},
+           given={Vinayak\bibnamedelima A},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b06000f0e74ddc76d62f2d53dfed268}{%
+           family={Dwivedi},
+           familyi={D\bibinitperiod},
+           given={Yogesh\bibnamedelima K},
+           giveni={Y\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96056ac79455b09e9cbca5982a55fba1}{%
+           family={Baabdullah},
+           familyi={B\bibinitperiod},
+           given={Abdullah\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19e65c02715d9577f40368a1b33165f5}{%
+           family={Ismagilova},
+           familyi={I\bibinitperiod},
+           given={Elvira},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{823c25c04130cc5cf47ae27cf2e59cfb}
+      \strng{fullhash}{12c1d90e429e510526847fc99c1281e8}
+      \strng{fullhashraw}{12c1d90e429e510526847fc99c1281e8}
+      \strng{bibnamehash}{12c1d90e429e510526847fc99c1281e8}
+      \strng{authorbibnamehash}{12c1d90e429e510526847fc99c1281e8}
+      \strng{authornamehash}{823c25c04130cc5cf47ae27cf2e59cfb}
+      \strng{authorfullhash}{12c1d90e429e510526847fc99c1281e8}
+      \strng{authorfullhashraw}{12c1d90e429e510526847fc99c1281e8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial Marketing Management}
+      \field{title}{Achieving superior organizational performance via big data predictive analytics: A dynamic capability view}
+      \field{volume}{90}
+      \field{year}{2020}
+      \field{pages}{581\bibrangedash 592}
+      \range{pages}{12}
+    \endentry
+    \entry{luhmann1992communication}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=1853840cd1882f24780cedd18977bbe1}{%
-           family={Minnich},
+        {{un=0,uniquepart=base,hash=c8b72fb67fc916725baec30956b60d9d}{%
+           family={Luhmann},
+           familyi={L\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{c8b72fb67fc916725baec30956b60d9d}
+      \strng{fullhash}{c8b72fb67fc916725baec30956b60d9d}
+      \strng{fullhashraw}{c8b72fb67fc916725baec30956b60d9d}
+      \strng{bibnamehash}{c8b72fb67fc916725baec30956b60d9d}
+      \strng{authorbibnamehash}{c8b72fb67fc916725baec30956b60d9d}
+      \strng{authornamehash}{c8b72fb67fc916725baec30956b60d9d}
+      \strng{authorfullhash}{c8b72fb67fc916725baec30956b60d9d}
+      \strng{authorfullhashraw}{c8b72fb67fc916725baec30956b60d9d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communication theory}
+      \field{number}{3}
+      \field{title}{What is communication?}
+      \field{volume}{2}
+      \field{year}{1992}
+      \field{pages}{251\bibrangedash 259}
+      \range{pages}{9}
+    \endentry
+    \entry{mackenzie19597}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1b4f142ad29f292589b74925ef12eef0}{%
+           family={MacKenzie},
            familyi={M\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
+           given={Raymond\bibnamedelima N},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{1853840cd1882f24780cedd18977bbe1}
-      \strng{fullhash}{1853840cd1882f24780cedd18977bbe1}
-      \strng{bibnamehash}{1853840cd1882f24780cedd18977bbe1}
-      \strng{authorbibnamehash}{1853840cd1882f24780cedd18977bbe1}
-      \strng{authornamehash}{1853840cd1882f24780cedd18977bbe1}
-      \strng{authorfullhash}{1853840cd1882f24780cedd18977bbe1}
+      \list{publisher}{1}{%
+        {ERIC}%
+      }
+      \strng{namehash}{1b4f142ad29f292589b74925ef12eef0}
+      \strng{fullhash}{1b4f142ad29f292589b74925ef12eef0}
+      \strng{fullhashraw}{1b4f142ad29f292589b74925ef12eef0}
+      \strng{bibnamehash}{1b4f142ad29f292589b74925ef12eef0}
+      \strng{authorbibnamehash}{1b4f142ad29f292589b74925ef12eef0}
+      \strng{authornamehash}{1b4f142ad29f292589b74925ef12eef0}
+      \strng{authorfullhash}{1b4f142ad29f292589b74925ef12eef0}
+      \strng{authorfullhashraw}{1b4f142ad29f292589b74925ef12eef0}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Die Vorteile und Nachteile des Cloud-Computing}
-      \field{urlday}{17}
-      \field{urlmonth}{3}
-      \field{urlyear}{2024}
+      \field{journaltitle}{Journal of Social Issues}
+      \field{number}{2}
+      \field{title}{7 Communication Consulting}
+      \field{volume}{15}
+      \field{year}{1959}
+      \field{pages}{169}
+      \range{pages}{1}
+    \endentry
+    \entry{monino2021data}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=462d1554b751f96e2ca2e31a314a96c3}{%
+           family={Monino},
+           familyi={M\bibinitperiod},
+           given={Jean-Louis},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{462d1554b751f96e2ca2e31a314a96c3}
+      \strng{fullhash}{462d1554b751f96e2ca2e31a314a96c3}
+      \strng{fullhashraw}{462d1554b751f96e2ca2e31a314a96c3}
+      \strng{bibnamehash}{462d1554b751f96e2ca2e31a314a96c3}
+      \strng{authorbibnamehash}{462d1554b751f96e2ca2e31a314a96c3}
+      \strng{authornamehash}{462d1554b751f96e2ca2e31a314a96c3}
+      \strng{authorfullhash}{462d1554b751f96e2ca2e31a314a96c3}
+      \strng{authorfullhashraw}{462d1554b751f96e2ca2e31a314a96c3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Knowledge Economy}
+      \field{title}{Data value, big data analytics, and decision-making}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{pages}{256\bibrangedash 267}
+      \range{pages}{12}
+    \endentry
+    \entry{oleff2022proaktives}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7525fe2beaf37f457fe8cfdf3bf2b7ea}{%
+           family={Oleff},
+           familyi={O\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Engineering Archive}%
+      }
+      \strng{namehash}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \strng{fullhash}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \strng{fullhashraw}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \strng{bibnamehash}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \strng{authorbibnamehash}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \strng{authornamehash}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \strng{authorfullhash}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \strng{authorfullhashraw}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Proaktives Management von Anforderungsänderungen in der Entwicklung komplexer technischer Systeme: Proactive management of requirement changes for the development of complex technical systems}
+      \field{year}{2022}
+    \endentry
+    \entry{reihlen2010knowledge}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4bd2f7806f61b9102fa134535cc6f453}{%
+           family={Reihlen},
+           familyi={R\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78e3fe6b2ec10035caa8afc94d03b78b}{%
+           family={Nikolova},
+           familyi={N\bibinitperiod},
+           given={Natalia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{9ea0120ec65c45b3a35b33c323727482}
+      \strng{fullhash}{9ea0120ec65c45b3a35b33c323727482}
+      \strng{fullhashraw}{9ea0120ec65c45b3a35b33c323727482}
+      \strng{bibnamehash}{9ea0120ec65c45b3a35b33c323727482}
+      \strng{authorbibnamehash}{9ea0120ec65c45b3a35b33c323727482}
+      \strng{authornamehash}{9ea0120ec65c45b3a35b33c323727482}
+      \strng{authorfullhash}{9ea0120ec65c45b3a35b33c323727482}
+      \strng{authorfullhashraw}{9ea0120ec65c45b3a35b33c323727482}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scandinavian Journal of Management}
+      \field{number}{3}
+      \field{title}{Knowledge production in consulting teams}
+      \field{volume}{26}
+      \field{year}{2010}
+      \field{pages}{279\bibrangedash 289}
+      \range{pages}{11}
+    \endentry
+    \entry{salado2021systems}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=792b9e118413fea28cc9a42aaadf41a4}{%
+           family={Salado},
+           familyi={S\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{792b9e118413fea28cc9a42aaadf41a4}
+      \strng{fullhash}{792b9e118413fea28cc9a42aaadf41a4}
+      \strng{fullhashraw}{792b9e118413fea28cc9a42aaadf41a4}
+      \strng{bibnamehash}{792b9e118413fea28cc9a42aaadf41a4}
+      \strng{authorbibnamehash}{792b9e118413fea28cc9a42aaadf41a4}
+      \strng{authornamehash}{792b9e118413fea28cc9a42aaadf41a4}
+      \strng{authorfullhash}{792b9e118413fea28cc9a42aaadf41a4}
+      \strng{authorfullhashraw}{792b9e118413fea28cc9a42aaadf41a4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Systems Engineering}
+      \field{number}{2}
+      \field{title}{A systems-theoretic articulation of stakeholder needs and system requirements}
+      \field{volume}{24}
+      \field{year}{2021}
+      \field{pages}{83\bibrangedash 99}
+      \range{pages}{17}
+    \endentry
+    \entry{sarikaya2018we}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=bf797706799ce7ddc1a37fea12d03ff3}{%
+           family={Sarikaya},
+           familyi={S\bibinitperiod},
+           given={Alper},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df5c7af01dad8aa57f9ff29ddfa6c2d3}{%
+           family={Correll},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36d88966bbbd9a385bfd86a319c01137}{%
+           family={Bartram},
+           familyi={B\bibinitperiod},
+           given={Lyn},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=795a99893c2a080a084deb26e429696e}{%
+           family={Tory},
+           familyi={T\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93176706eae9ac353e6f72151c538ac2}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Danyel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e274e786c64e9d1cb357552d9078e7e3}
+      \strng{fullhash}{5af7a3046b679a3aa9b56128f0ab5533}
+      \strng{fullhashraw}{5af7a3046b679a3aa9b56128f0ab5533}
+      \strng{bibnamehash}{5af7a3046b679a3aa9b56128f0ab5533}
+      \strng{authorbibnamehash}{5af7a3046b679a3aa9b56128f0ab5533}
+      \strng{authornamehash}{e274e786c64e9d1cb357552d9078e7e3}
+      \strng{authorfullhash}{5af7a3046b679a3aa9b56128f0ab5533}
+      \strng{authorfullhashraw}{5af7a3046b679a3aa9b56128f0ab5533}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE transactions on visualization and computer graphics}
+      \field{number}{1}
+      \field{title}{What do we talk about when we talk about dashboards?}
+      \field{volume}{25}
+      \field{year}{2018}
+      \field{pages}{682\bibrangedash 692}
+      \range{pages}{11}
+    \endentry
+    \entry{sayer2013misunderstanding}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62ab6ac89f82ceee9e5c339b025ac54d}{%
+           family={Sayer},
+           familyi={S\bibinitperiod},
+           given={Inaad},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \strng{fullhash}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \strng{fullhashraw}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \strng{bibnamehash}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \strng{authorbibnamehash}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \strng{authornamehash}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \strng{authorfullhash}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \strng{authorfullhashraw}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia - Social and Behavioral Sciences}
+      \field{month}{01}
+      \field{title}{Misunderstanding and Language Comprehension}
+      \field{volume}{70}
+      \field{year}{2013}
+      \field{pages}{738\bibrangedash 748}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.sbspro.2013.01.118
+      \endverb
+    \endentry
+    \entry{suleiman2022causes}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=399c95bf650064ac9d4cbc2a8cf5b82f}{%
+           family={Suleiman},
+           familyi={S\bibinitperiod},
+           given={Akram},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \strng{fullhash}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \strng{fullhashraw}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \strng{bibnamehash}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \strng{authorbibnamehash}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \strng{authornamehash}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \strng{authorfullhash}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \strng{authorfullhashraw}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Civil Engineering and Management}
+      \field{number}{5}
+      \field{title}{Causes and effects of poor communication in the construction industry in the MENA region}
+      \field{volume}{28}
+      \field{year}{2022}
+      \field{pages}{365\bibrangedash 376}
+      \range{pages}{12}
+    \endentry
+    \entry{sutter2019consultants}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=09d69ee43022bddf538d8239d01d731a}{%
+           family={Sutter},
+           familyi={S\bibinitperiod},
+           given={Michäas},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40fb7e2dbf46eec62187351d9b9b265b}{%
+           family={Kieser},
+           familyi={K\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{aa8e33ce357f5149879fb41ac51d55c4}
+      \strng{fullhash}{aa8e33ce357f5149879fb41ac51d55c4}
+      \strng{fullhashraw}{aa8e33ce357f5149879fb41ac51d55c4}
+      \strng{bibnamehash}{aa8e33ce357f5149879fb41ac51d55c4}
+      \strng{authorbibnamehash}{aa8e33ce357f5149879fb41ac51d55c4}
+      \strng{authornamehash}{aa8e33ce357f5149879fb41ac51d55c4}
+      \strng{authorfullhash}{aa8e33ce357f5149879fb41ac51d55c4}
+      \strng{authorfullhashraw}{aa8e33ce357f5149879fb41ac51d55c4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Business Communication}
+      \field{number}{2}
+      \field{title}{How consultants and their clients collaborate in spite of massive communication barriers}
+      \field{volume}{56}
+      \field{year}{2019}
+      \field{pages}{249\bibrangedash 277}
+      \range{pages}{29}
+    \endentry
+    \entry{tsai2015big}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=be36c010ad9a6b05233271addc60b3b5}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Chun-Wei},
+           giveni={C\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f2bb9d4043536a07c40ac6c87de926a}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Chin-Feng},
+           giveni={C\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7ceaa1559910bfe8e93f78cf4d24966}{%
+           family={Chao},
+           familyi={C\bibinitperiod},
+           given={Han-Chieh},
+           giveni={H\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d9fbc50e12486f11ef599cf2f3ffe11}{%
+           family={Vasilakos},
+           familyi={V\bibinitperiod},
+           given={Athanasios\bibnamedelima V},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{7013ae3032ca3bff8e1c2ac0c320add1}
+      \strng{fullhash}{3ec75733da90bd126abf8c2878b15717}
+      \strng{fullhashraw}{3ec75733da90bd126abf8c2878b15717}
+      \strng{bibnamehash}{3ec75733da90bd126abf8c2878b15717}
+      \strng{authorbibnamehash}{3ec75733da90bd126abf8c2878b15717}
+      \strng{authornamehash}{7013ae3032ca3bff8e1c2ac0c320add1}
+      \strng{authorfullhash}{3ec75733da90bd126abf8c2878b15717}
+      \strng{authorfullhashraw}{3ec75733da90bd126abf8c2878b15717}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Big data}
+      \field{title}{Big data analytics: a survey}
+      \field{volume}{2}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 32}
+      \range{pages}{32}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{appelbaum2005critical}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3f5750d4ba40e3a408ed466fcbe737d6}{%
+           family={Appelbaum},
+           familyi={A\bibinitperiod},
+           given={Steven\bibnamedelima H},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b5b072e639ca18631a2b28f006f5e9d}{%
+           family={Steed},
+           familyi={S\bibinitperiod},
+           given={Anthony\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited}%
+      }
+      \strng{namehash}{8454ca6fa65718dcaeeff194d412918f}
+      \strng{fullhash}{8454ca6fa65718dcaeeff194d412918f}
+      \strng{fullhashraw}{8454ca6fa65718dcaeeff194d412918f}
+      \strng{bibnamehash}{8454ca6fa65718dcaeeff194d412918f}
+      \strng{authorbibnamehash}{8454ca6fa65718dcaeeff194d412918f}
+      \strng{authornamehash}{8454ca6fa65718dcaeeff194d412918f}
+      \strng{authorfullhash}{8454ca6fa65718dcaeeff194d412918f}
+      \strng{authorfullhashraw}{8454ca6fa65718dcaeeff194d412918f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of management development}
+      \field{number}{1}
+      \field{title}{The critical success factors in the client-consulting relationship}
+      \field{volume}{24}
+      \field{year}{2005}
+      \field{pages}{68\bibrangedash 93}
+      \range{pages}{26}
+    \endentry
+    \entry{bano2014aligning}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7e3e8ad40e7f47d137934d249ef810cf}{%
+           family={Bano},
+           familyi={B\bibinitperiod},
+           given={Muneera},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7e3e8ad40e7f47d137934d249ef810cf}
+      \strng{fullhash}{7e3e8ad40e7f47d137934d249ef810cf}
+      \strng{fullhashraw}{7e3e8ad40e7f47d137934d249ef810cf}
+      \strng{bibnamehash}{7e3e8ad40e7f47d137934d249ef810cf}
+      \strng{authorbibnamehash}{7e3e8ad40e7f47d137934d249ef810cf}
+      \strng{authornamehash}{7e3e8ad40e7f47d137934d249ef810cf}
+      \strng{authorfullhash}{7e3e8ad40e7f47d137934d249ef810cf}
+      \strng{authorfullhashraw}{7e3e8ad40e7f47d137934d249ef810cf}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2014 IEEE 22nd International Requirements Engineering Conference (RE)}
+      \field{title}{Aligning services and requirements with user feedback}
+      \field{year}{2014}
+      \field{pages}{473\bibrangedash 478}
+      \range{pages}{6}
+    \endentry
+    \entry{bjarnason2017role}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7122de7a9d5de51fcaf6c0ef57cf4d29}{%
+           family={Bjarnason},
+           familyi={B\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c13b944e2b68ee928fb824b303ed11f}{%
+           family={Sharp},
+           familyi={S\bibinitperiod},
+           given={Helen},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{97edc4e1788e7c3887af93b7b755d381}
+      \strng{fullhash}{97edc4e1788e7c3887af93b7b755d381}
+      \strng{fullhashraw}{97edc4e1788e7c3887af93b7b755d381}
+      \strng{bibnamehash}{97edc4e1788e7c3887af93b7b755d381}
+      \strng{authorbibnamehash}{97edc4e1788e7c3887af93b7b755d381}
+      \strng{authornamehash}{97edc4e1788e7c3887af93b7b755d381}
+      \strng{authorfullhash}{97edc4e1788e7c3887af93b7b755d381}
+      \strng{authorfullhashraw}{97edc4e1788e7c3887af93b7b755d381}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Requirements Engineering}
+      \field{title}{The role of distances in requirements communication: a case study}
+      \field{volume}{22}
       \field{year}{2017}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.heise.de/download/blog/Die-Vorteile-und-Nachteile-des-Cloud-Computing-3713041
-      \endverb
-      \verb{url}
-      \verb https://www.heise.de/download/blog/Die-Vorteile-und-Nachteile-des-Cloud-Computing-3713041
-      \endverb
+      \field{pages}{1\bibrangedash 26}
+      \range{pages}{26}
     \endentry
-    \entry{Rego}{online}{}
-      \name{author}{1}{}{%
-        {{hash=4353cfcbb3e2e700a10ee3278596bbab}{%
-           family={o.V.},
-           familyi={o\bibinitperiod}}}%
+    \entry{chakrabarti2004identification}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e5d508518a35c7d540748740a84b813c}{%
+           family={Chakrabarti},
+           familyi={C\bibinitperiod},
+           given={Amaresh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67bd41cdf721c9f607c0d583fe844ed6}{%
+           family={Morgenstern},
+           familyi={M\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ab43356abf6f933d2e28602b16ee99f}{%
+           family={Knaab},
+           familyi={K\bibinitperiod},
+           given={Helge},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{fullhash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{bibnamehash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{authorbibnamehash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{authornamehash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{authorfullhash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \field{extraname}{1}
-      \field{sortinit}{o}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2882ce7542ca8d601ef01aec2bd2e9c5}
+      \strng{fullhash}{113a25159f487899f8b3b227bf4fdd24}
+      \strng{fullhashraw}{113a25159f487899f8b3b227bf4fdd24}
+      \strng{bibnamehash}{113a25159f487899f8b3b227bf4fdd24}
+      \strng{authorbibnamehash}{113a25159f487899f8b3b227bf4fdd24}
+      \strng{authornamehash}{2882ce7542ca8d601ef01aec2bd2e9c5}
+      \strng{authorfullhash}{113a25159f487899f8b3b227bf4fdd24}
+      \strng{authorfullhashraw}{113a25159f487899f8b3b227bf4fdd24}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Policy Language}
-      \field{urlday}{19}
-      \field{urlmonth}{3}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.openpolicyagent.org/docs/latest/policy-language/
-      \endverb
-      \verb{url}
-      \verb https://www.openpolicyagent.org/docs/latest/policy-language/
-      \endverb
+      \field{journaltitle}{Research in engineering design}
+      \field{title}{Identification and application of requirements and their impact on the design process: a protocol study}
+      \field{volume}{15}
+      \field{year}{2004}
+      \field{pages}{22\bibrangedash 39}
+      \range{pages}{18}
     \endentry
-    \entry{SAPCloudStrategy}{online}{}
+    \entry{cornelissen2023corporate}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=4353cfcbb3e2e700a10ee3278596bbab}{%
-           family={o.V.},
-           familyi={o\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=faadfe852dc93161422df49dbf2dabf6}{%
+           family={Cornelissen},
+           familyi={C\bibinitperiod},
+           given={Joep\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{fullhash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{bibnamehash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{authorbibnamehash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{authornamehash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{authorfullhash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \field{extraname}{2}
-      \field{sortinit}{o}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \list{publisher}{1}{%
+        {SAGE Publications Ltd}%
+      }
+      \strng{namehash}{faadfe852dc93161422df49dbf2dabf6}
+      \strng{fullhash}{faadfe852dc93161422df49dbf2dabf6}
+      \strng{fullhashraw}{faadfe852dc93161422df49dbf2dabf6}
+      \strng{bibnamehash}{faadfe852dc93161422df49dbf2dabf6}
+      \strng{authorbibnamehash}{faadfe852dc93161422df49dbf2dabf6}
+      \strng{authornamehash}{faadfe852dc93161422df49dbf2dabf6}
+      \strng{authorfullhash}{faadfe852dc93161422df49dbf2dabf6}
+      \strng{authorfullhashraw}{faadfe852dc93161422df49dbf2dabf6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{SAP Cloud Strategy}
-      \field{urlday}{17}
-      \field{urlmonth}{3}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://sapinsider.org/topic/sap-platform-technology/sap-cloud-strategy/
-      \endverb
-      \verb{url}
-      \verb https://sapinsider.org/topic/sap-platform-technology/sap-cloud-strategy/
-      \endverb
-    \endentry
-    \entry{CI/CD}{online}{}
-      \name{author}{1}{}{%
-        {{hash=4353cfcbb3e2e700a10ee3278596bbab}{%
-           family={o.V.},
-           familyi={o\bibinitperiod}}}%
-      }
-      \strng{namehash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{fullhash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{bibnamehash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{authorbibnamehash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{authornamehash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \strng{authorfullhash}{4353cfcbb3e2e700a10ee3278596bbab}
-      \field{extraname}{3}
-      \field{sortinit}{o}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{What is CI/CD?}
-      \field{urlday}{17}
-      \field{urlmonth}{3}
-      \field{urlyear}{2024}
+      \field{title}{Corporate communication: A guide to theory and practice}
       \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.redhat.com/en/topics/devops/what-is-ci-cd
+    \endentry
+    \entry{cothran2005developing}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d63dae696081dfdc88e1f130a4315d00}{%
+           family={Cothran},
+           familyi={C\bibinitperiod},
+           given={Henry\bibnamedelima M},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa4f185b05199b7d5a0c243a7d7ec577}{%
+           family={Wysocki},
+           familyi={W\bibinitperiod},
+           given={Allen\bibnamedelima F},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{644cbbe0002edafae51709905fb1277e}
+      \strng{fullhash}{644cbbe0002edafae51709905fb1277e}
+      \strng{fullhashraw}{644cbbe0002edafae51709905fb1277e}
+      \strng{bibnamehash}{644cbbe0002edafae51709905fb1277e}
+      \strng{authorbibnamehash}{644cbbe0002edafae51709905fb1277e}
+      \strng{authornamehash}{644cbbe0002edafae51709905fb1277e}
+      \strng{authorfullhash}{644cbbe0002edafae51709905fb1277e}
+      \strng{authorfullhashraw}{644cbbe0002edafae51709905fb1277e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EDIS}
+      \field{number}{14}
+      \field{title}{Developing SMART Goals for Your Organization: FE577/FE577, 11/2005}
+      \field{volume}{2005}
+      \field{year}{2005}
+    \endentry
+    \entry{davis2006communication}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=306399708d5073b0cb87725a01416a9f}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Christopher\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=991c1781507c5e0ef310a9ebbcd170c6}{%
+           family={Fuller},
+           familyi={F\bibinitperiod},
+           given={Robert\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1bdccf1dcb2886073421a842142450f}{%
+           family={Tremblay},
+           familyi={T\bibinitperiod},
+           given={Monica\bibnamedelima Chiarini},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8fb497760cdc668a34a663cceda49f7}{%
+           family={Berndt},
+           familyi={B\bibinitperiod},
+           given={Donald\bibnamedelima J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{4fc217b404cdf39cfdaaf4f54866a6f8}
+      \strng{fullhash}{ecd1d1d4a3e33079aeff355693e5cd17}
+      \strng{fullhashraw}{ecd1d1d4a3e33079aeff355693e5cd17}
+      \strng{bibnamehash}{ecd1d1d4a3e33079aeff355693e5cd17}
+      \strng{authorbibnamehash}{ecd1d1d4a3e33079aeff355693e5cd17}
+      \strng{authornamehash}{4fc217b404cdf39cfdaaf4f54866a6f8}
+      \strng{authorfullhash}{ecd1d1d4a3e33079aeff355693e5cd17}
+      \strng{authorfullhashraw}{ecd1d1d4a3e33079aeff355693e5cd17}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computer Information Systems}
+      \field{number}{5}
+      \field{title}{Communication challenges in requirements elicitation and the use of the repertory grid technique}
+      \field{volume}{46}
+      \field{year}{2006}
+      \field{pages}{78\bibrangedash 86}
+      \range{pages}{9}
+    \endentry
+    \entry{gamil2017identification}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9abeda5b228090fc41c83ed51e0420e1}{%
+           family={Gamil},
+           familyi={G\bibinitperiod},
+           given={Yaser},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e775a0a7c10a7a2e11d0b76b89925fff}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Ismail\bibnamedelima Abdul},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{100fe90efda305647345374653b3f1d4}
+      \strng{fullhash}{100fe90efda305647345374653b3f1d4}
+      \strng{fullhashraw}{100fe90efda305647345374653b3f1d4}
+      \strng{bibnamehash}{100fe90efda305647345374653b3f1d4}
+      \strng{authorbibnamehash}{100fe90efda305647345374653b3f1d4}
+      \strng{authornamehash}{100fe90efda305647345374653b3f1d4}
+      \strng{authorfullhash}{100fe90efda305647345374653b3f1d4}
+      \strng{authorfullhashraw}{100fe90efda305647345374653b3f1d4}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Emerging Science Journal}
+      \field{number}{4}
+      \field{title}{Identification of causes and effects of poor communication in construction industry: A theoretical review}
+      \field{volume}{1}
+      \field{year}{2017}
+      \field{pages}{239\bibrangedash 247}
+      \range{pages}{9}
+    \endentry
+    \entry{gupta2020digital}{article}{}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=a6467984269cb87135b6fae0bbd495ae}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Shaphali},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7037df5854ccfa240385b21618162fcd}{%
+           family={Leszkiewicz},
+           familyi={L\bibinitperiod},
+           given={Agata},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a662108e4098710ee8727851db5c5311}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9b9049a2918898fabb6f4e342735ba6}{%
+           family={Bijmolt},
+           familyi={B\bibinitperiod},
+           given={Tammo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a0ce3c3114829b544230893291044b9}{%
+           family={Potapov},
+           familyi={P\bibinitperiod},
+           given={Dmitriy},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{35763d4ce1899d9973d36c37caec5c30}
+      \strng{fullhash}{6c945cacea2e50b32d4a981416d01976}
+      \strng{fullhashraw}{6c945cacea2e50b32d4a981416d01976}
+      \strng{bibnamehash}{6c945cacea2e50b32d4a981416d01976}
+      \strng{authorbibnamehash}{6c945cacea2e50b32d4a981416d01976}
+      \strng{authornamehash}{35763d4ce1899d9973d36c37caec5c30}
+      \strng{authorfullhash}{6c945cacea2e50b32d4a981416d01976}
+      \strng{authorfullhashraw}{6c945cacea2e50b32d4a981416d01976}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Interactive Marketing}
+      \field{number}{1}
+      \field{title}{Digital analytics: Modeling for insights and new methods}
+      \field{volume}{51}
+      \field{year}{2020}
+      \field{pages}{26\bibrangedash 43}
+      \range{pages}{18}
+    \endentry
+    \entry{gupta2020achieving}{article}{}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=0684aa6c8b6be042529df046b846db55}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Shivam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7be7fbf99e6c33c0a1067c1f8fa9194b}{%
+           family={Drave},
+           familyi={D\bibinitperiod},
+           given={Vinayak\bibnamedelima A},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b06000f0e74ddc76d62f2d53dfed268}{%
+           family={Dwivedi},
+           familyi={D\bibinitperiod},
+           given={Yogesh\bibnamedelima K},
+           giveni={Y\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96056ac79455b09e9cbca5982a55fba1}{%
+           family={Baabdullah},
+           familyi={B\bibinitperiod},
+           given={Abdullah\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19e65c02715d9577f40368a1b33165f5}{%
+           family={Ismagilova},
+           familyi={I\bibinitperiod},
+           given={Elvira},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{823c25c04130cc5cf47ae27cf2e59cfb}
+      \strng{fullhash}{12c1d90e429e510526847fc99c1281e8}
+      \strng{fullhashraw}{12c1d90e429e510526847fc99c1281e8}
+      \strng{bibnamehash}{12c1d90e429e510526847fc99c1281e8}
+      \strng{authorbibnamehash}{12c1d90e429e510526847fc99c1281e8}
+      \strng{authornamehash}{823c25c04130cc5cf47ae27cf2e59cfb}
+      \strng{authorfullhash}{12c1d90e429e510526847fc99c1281e8}
+      \strng{authorfullhashraw}{12c1d90e429e510526847fc99c1281e8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial Marketing Management}
+      \field{title}{Achieving superior organizational performance via big data predictive analytics: A dynamic capability view}
+      \field{volume}{90}
+      \field{year}{2020}
+      \field{pages}{581\bibrangedash 592}
+      \range{pages}{12}
+    \endentry
+    \entry{luhmann1992communication}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c8b72fb67fc916725baec30956b60d9d}{%
+           family={Luhmann},
+           familyi={L\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{c8b72fb67fc916725baec30956b60d9d}
+      \strng{fullhash}{c8b72fb67fc916725baec30956b60d9d}
+      \strng{fullhashraw}{c8b72fb67fc916725baec30956b60d9d}
+      \strng{bibnamehash}{c8b72fb67fc916725baec30956b60d9d}
+      \strng{authorbibnamehash}{c8b72fb67fc916725baec30956b60d9d}
+      \strng{authornamehash}{c8b72fb67fc916725baec30956b60d9d}
+      \strng{authorfullhash}{c8b72fb67fc916725baec30956b60d9d}
+      \strng{authorfullhashraw}{c8b72fb67fc916725baec30956b60d9d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communication theory}
+      \field{number}{3}
+      \field{title}{What is communication?}
+      \field{volume}{2}
+      \field{year}{1992}
+      \field{pages}{251\bibrangedash 259}
+      \range{pages}{9}
+    \endentry
+    \entry{mackenzie19597}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1b4f142ad29f292589b74925ef12eef0}{%
+           family={MacKenzie},
+           familyi={M\bibinitperiod},
+           given={Raymond\bibnamedelima N},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ERIC}%
+      }
+      \strng{namehash}{1b4f142ad29f292589b74925ef12eef0}
+      \strng{fullhash}{1b4f142ad29f292589b74925ef12eef0}
+      \strng{fullhashraw}{1b4f142ad29f292589b74925ef12eef0}
+      \strng{bibnamehash}{1b4f142ad29f292589b74925ef12eef0}
+      \strng{authorbibnamehash}{1b4f142ad29f292589b74925ef12eef0}
+      \strng{authornamehash}{1b4f142ad29f292589b74925ef12eef0}
+      \strng{authorfullhash}{1b4f142ad29f292589b74925ef12eef0}
+      \strng{authorfullhashraw}{1b4f142ad29f292589b74925ef12eef0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Social Issues}
+      \field{number}{2}
+      \field{title}{7 Communication Consulting}
+      \field{volume}{15}
+      \field{year}{1959}
+      \field{pages}{169}
+      \range{pages}{1}
+    \endentry
+    \entry{monino2021data}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=462d1554b751f96e2ca2e31a314a96c3}{%
+           family={Monino},
+           familyi={M\bibinitperiod},
+           given={Jean-Louis},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{462d1554b751f96e2ca2e31a314a96c3}
+      \strng{fullhash}{462d1554b751f96e2ca2e31a314a96c3}
+      \strng{fullhashraw}{462d1554b751f96e2ca2e31a314a96c3}
+      \strng{bibnamehash}{462d1554b751f96e2ca2e31a314a96c3}
+      \strng{authorbibnamehash}{462d1554b751f96e2ca2e31a314a96c3}
+      \strng{authornamehash}{462d1554b751f96e2ca2e31a314a96c3}
+      \strng{authorfullhash}{462d1554b751f96e2ca2e31a314a96c3}
+      \strng{authorfullhashraw}{462d1554b751f96e2ca2e31a314a96c3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Knowledge Economy}
+      \field{title}{Data value, big data analytics, and decision-making}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{pages}{256\bibrangedash 267}
+      \range{pages}{12}
+    \endentry
+    \entry{oleff2022proaktives}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7525fe2beaf37f457fe8cfdf3bf2b7ea}{%
+           family={Oleff},
+           familyi={O\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Engineering Archive}%
+      }
+      \strng{namehash}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \strng{fullhash}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \strng{fullhashraw}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \strng{bibnamehash}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \strng{authorbibnamehash}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \strng{authornamehash}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \strng{authorfullhash}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \strng{authorfullhashraw}{7525fe2beaf37f457fe8cfdf3bf2b7ea}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Proaktives Management von Anforderungsänderungen in der Entwicklung komplexer technischer Systeme: Proactive management of requirement changes for the development of complex technical systems}
+      \field{year}{2022}
+    \endentry
+    \entry{reihlen2010knowledge}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4bd2f7806f61b9102fa134535cc6f453}{%
+           family={Reihlen},
+           familyi={R\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78e3fe6b2ec10035caa8afc94d03b78b}{%
+           family={Nikolova},
+           familyi={N\bibinitperiod},
+           given={Natalia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{9ea0120ec65c45b3a35b33c323727482}
+      \strng{fullhash}{9ea0120ec65c45b3a35b33c323727482}
+      \strng{fullhashraw}{9ea0120ec65c45b3a35b33c323727482}
+      \strng{bibnamehash}{9ea0120ec65c45b3a35b33c323727482}
+      \strng{authorbibnamehash}{9ea0120ec65c45b3a35b33c323727482}
+      \strng{authornamehash}{9ea0120ec65c45b3a35b33c323727482}
+      \strng{authorfullhash}{9ea0120ec65c45b3a35b33c323727482}
+      \strng{authorfullhashraw}{9ea0120ec65c45b3a35b33c323727482}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scandinavian Journal of Management}
+      \field{number}{3}
+      \field{title}{Knowledge production in consulting teams}
+      \field{volume}{26}
+      \field{year}{2010}
+      \field{pages}{279\bibrangedash 289}
+      \range{pages}{11}
+    \endentry
+    \entry{salado2021systems}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=792b9e118413fea28cc9a42aaadf41a4}{%
+           family={Salado},
+           familyi={S\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{792b9e118413fea28cc9a42aaadf41a4}
+      \strng{fullhash}{792b9e118413fea28cc9a42aaadf41a4}
+      \strng{fullhashraw}{792b9e118413fea28cc9a42aaadf41a4}
+      \strng{bibnamehash}{792b9e118413fea28cc9a42aaadf41a4}
+      \strng{authorbibnamehash}{792b9e118413fea28cc9a42aaadf41a4}
+      \strng{authornamehash}{792b9e118413fea28cc9a42aaadf41a4}
+      \strng{authorfullhash}{792b9e118413fea28cc9a42aaadf41a4}
+      \strng{authorfullhashraw}{792b9e118413fea28cc9a42aaadf41a4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Systems Engineering}
+      \field{number}{2}
+      \field{title}{A systems-theoretic articulation of stakeholder needs and system requirements}
+      \field{volume}{24}
+      \field{year}{2021}
+      \field{pages}{83\bibrangedash 99}
+      \range{pages}{17}
+    \endentry
+    \entry{sarikaya2018we}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=bf797706799ce7ddc1a37fea12d03ff3}{%
+           family={Sarikaya},
+           familyi={S\bibinitperiod},
+           given={Alper},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df5c7af01dad8aa57f9ff29ddfa6c2d3}{%
+           family={Correll},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36d88966bbbd9a385bfd86a319c01137}{%
+           family={Bartram},
+           familyi={B\bibinitperiod},
+           given={Lyn},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=795a99893c2a080a084deb26e429696e}{%
+           family={Tory},
+           familyi={T\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93176706eae9ac353e6f72151c538ac2}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Danyel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e274e786c64e9d1cb357552d9078e7e3}
+      \strng{fullhash}{5af7a3046b679a3aa9b56128f0ab5533}
+      \strng{fullhashraw}{5af7a3046b679a3aa9b56128f0ab5533}
+      \strng{bibnamehash}{5af7a3046b679a3aa9b56128f0ab5533}
+      \strng{authorbibnamehash}{5af7a3046b679a3aa9b56128f0ab5533}
+      \strng{authornamehash}{e274e786c64e9d1cb357552d9078e7e3}
+      \strng{authorfullhash}{5af7a3046b679a3aa9b56128f0ab5533}
+      \strng{authorfullhashraw}{5af7a3046b679a3aa9b56128f0ab5533}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE transactions on visualization and computer graphics}
+      \field{number}{1}
+      \field{title}{What do we talk about when we talk about dashboards?}
+      \field{volume}{25}
+      \field{year}{2018}
+      \field{pages}{682\bibrangedash 692}
+      \range{pages}{11}
+    \endentry
+    \entry{sayer2013misunderstanding}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62ab6ac89f82ceee9e5c339b025ac54d}{%
+           family={Sayer},
+           familyi={S\bibinitperiod},
+           given={Inaad},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \strng{fullhash}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \strng{fullhashraw}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \strng{bibnamehash}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \strng{authorbibnamehash}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \strng{authornamehash}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \strng{authorfullhash}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \strng{authorfullhashraw}{62ab6ac89f82ceee9e5c339b025ac54d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia - Social and Behavioral Sciences}
+      \field{month}{01}
+      \field{title}{Misunderstanding and Language Comprehension}
+      \field{volume}{70}
+      \field{year}{2013}
+      \field{pages}{738\bibrangedash 748}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.sbspro.2013.01.118
       \endverb
-      \verb{url}
-      \verb https://www.redhat.com/en/topics/devops/what-is-ci-cd
-      \endverb
+    \endentry
+    \entry{suleiman2022causes}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=399c95bf650064ac9d4cbc2a8cf5b82f}{%
+           family={Suleiman},
+           familyi={S\bibinitperiod},
+           given={Akram},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \strng{fullhash}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \strng{fullhashraw}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \strng{bibnamehash}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \strng{authorbibnamehash}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \strng{authornamehash}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \strng{authorfullhash}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \strng{authorfullhashraw}{399c95bf650064ac9d4cbc2a8cf5b82f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Civil Engineering and Management}
+      \field{number}{5}
+      \field{title}{Causes and effects of poor communication in the construction industry in the MENA region}
+      \field{volume}{28}
+      \field{year}{2022}
+      \field{pages}{365\bibrangedash 376}
+      \range{pages}{12}
+    \endentry
+    \entry{sutter2019consultants}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=09d69ee43022bddf538d8239d01d731a}{%
+           family={Sutter},
+           familyi={S\bibinitperiod},
+           given={Michäas},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40fb7e2dbf46eec62187351d9b9b265b}{%
+           family={Kieser},
+           familyi={K\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{aa8e33ce357f5149879fb41ac51d55c4}
+      \strng{fullhash}{aa8e33ce357f5149879fb41ac51d55c4}
+      \strng{fullhashraw}{aa8e33ce357f5149879fb41ac51d55c4}
+      \strng{bibnamehash}{aa8e33ce357f5149879fb41ac51d55c4}
+      \strng{authorbibnamehash}{aa8e33ce357f5149879fb41ac51d55c4}
+      \strng{authornamehash}{aa8e33ce357f5149879fb41ac51d55c4}
+      \strng{authorfullhash}{aa8e33ce357f5149879fb41ac51d55c4}
+      \strng{authorfullhashraw}{aa8e33ce357f5149879fb41ac51d55c4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Business Communication}
+      \field{number}{2}
+      \field{title}{How consultants and their clients collaborate in spite of massive communication barriers}
+      \field{volume}{56}
+      \field{year}{2019}
+      \field{pages}{249\bibrangedash 277}
+      \range{pages}{29}
+    \endentry
+    \entry{tsai2015big}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=be36c010ad9a6b05233271addc60b3b5}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Chun-Wei},
+           giveni={C\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f2bb9d4043536a07c40ac6c87de926a}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Chin-Feng},
+           giveni={C\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7ceaa1559910bfe8e93f78cf4d24966}{%
+           family={Chao},
+           familyi={C\bibinitperiod},
+           given={Han-Chieh},
+           giveni={H\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d9fbc50e12486f11ef599cf2f3ffe11}{%
+           family={Vasilakos},
+           familyi={V\bibinitperiod},
+           given={Athanasios\bibnamedelima V},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{7013ae3032ca3bff8e1c2ac0c320add1}
+      \strng{fullhash}{3ec75733da90bd126abf8c2878b15717}
+      \strng{fullhashraw}{3ec75733da90bd126abf8c2878b15717}
+      \strng{bibnamehash}{3ec75733da90bd126abf8c2878b15717}
+      \strng{authorbibnamehash}{3ec75733da90bd126abf8c2878b15717}
+      \strng{authornamehash}{7013ae3032ca3bff8e1c2ac0c320add1}
+      \strng{authorfullhash}{3ec75733da90bd126abf8c2878b15717}
+      \strng{authorfullhashraw}{3ec75733da90bd126abf8c2878b15717}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Big data}
+      \field{title}{Big data analytics: a survey}
+      \field{volume}{2}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 32}
+      \range{pages}{32}
     \endentry
   \enddatalist
 \endrefsection
