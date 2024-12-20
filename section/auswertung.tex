@@ -1,18 +1,28 @@
 \documentclass[../main.tex]{subfiles}
 \begin{document}
 
-\begin{center}
+In Abbildung \ref{fig:Kastengrafik} ist eine Kastengrafik zu sehen, die im folgenden zur Analyse der Umfrageergebnisse genutzt wird.
+Die Grafik ist nach Kastengrafik-Konvention aufgebaut und ermöglicht einen Einblick in die Verteilung der Bewertungsergebnisse \autocite{williamson1989box} berechnet durch pgfplots \autocite{feuer2015manal}.
+Der Bewertungsdurchschnitt wird zusätzlich in rot gezeichnet angezeigt.
+\begin{figure}[h!]
+\centering
+\label{fig:Kastengrafik}
 \begin{tikzpicture}
     \begin{axis}[
         boxplot/draw direction=y,
-        x=0.8cm,
-        ytick={1,2,3,4,5},
-        xtick={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15},
+        x=0.82cm,
+        ytick={1,...,5},
+        xtick={1,...,15},
+        xticklabel=\pgfmathprintnumber{\tick},
         axis x line*=bottom,
         axis y line*=left,
+        xlabel={Fragen},
+        ylabel={Bewertung},
         enlarge x limits,
         boxplot/average={auto},
-        boxplot/every average/.style={mark=*},
+        boxplot/every average/.style={mark=diamond*},
+        /pgfplots/boxplot/hide outliers,
+        fill=red
         ]
         \addplot [boxplot] table[y index=0] {data.dat};
         \addplot [boxplot] table[y index=1] {data.dat};
@@ -31,16 +41,17 @@
         \addplot [boxplot] table[y index=14] {data.dat};
     \end{axis}
 \end{tikzpicture}
-\end{center}
+\caption{Kastengrafik zur Antwortverteilung}
+\end{figure}
 \begin{center}
     \begin{tikzpicture}
         \begin{axis}[
-            width=15cm,
+            width=10cm,
             view={60}{45},
             zmin=-0.001,
             area plot/.style={
                 fill opacity=0.6,
-                draw=cyan,
+                draw=cyan!80!black,
                 fill=cyan,
                 mark=none,
             },
@@ -55,7 +66,34 @@
         \end{axis}
     \end{tikzpicture}
 \end{center}
-Hier kommt jetzt die Auswertung der Umfrage Ergebnisse. Da kann ich vielleicht ein paar schöne Grafiken erstellen.
+\begin{figure}[h!]
+\centering
+\label{fig:bereichdurchschnitt}
+    \begin{tikzpicture}
+        \begin{axis}[
+           ybar,
+           symbolic x coords={a,Anforderungen, Verständnis, Umgebungsbedingungen,z},
+           bar width={1.5cm},
+           width={10cm},
+           height={7cm},
+           ylabel={Bewertung},
+           x tick label style={anchor={west},rotate=15},
+           xticklabel pos=upper,
+           xtick=data,
+           ytick={1,...,5},
+           ymax=5,
+           ymin=0,
+           xmin={a},
+           xmax={z},
+           nodes near coords,
+        ]
+       \addplot[fill=cyan, draw=cyan!60!black] coordinates {
+        (Anforderungen,3.8) (Verständnis,3.422222222) (Umgebungsbedingungen,3.613445378)
+        };
+        \end{axis}
+    \end{tikzpicture}
+\caption{durchschnittliche Bewertung nach vorgestellten Bereichen}
+\end{figure}
 
 
 \end{document}

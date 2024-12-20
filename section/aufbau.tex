@@ -2,49 +2,52 @@
 \begin{document}
 
 Die Umfrage beinhaltet die Aussagen \ref{q:1}, \ref{q:2}, \ref{q:3} und \ref{q:4} aus dem Bereich der Anforderungen, Aussagen \ref{q:6}, \ref{q:7} und \ref{q:12} aus dem Bereich des Verständnis und die restlichen Aussagen \ref{q:5}, \ref{q:8}, \ref{q:9}, \ref{q:10}, \ref{q:11}, \ref{q:13}, \ref{q:14}, \ref{q:15} aus dem Bereich der Umgebungsbedingungen. 
-%TC:envir xltabular [ignore] displaymath
-\begin{small}
+
+\begin{dontcount}
+    \small
     \spaceskip=0.2em plus 1em minus 0.1em
     \renewcommand{\arraystretch}{0.85}
-    \begin{xltabular}[h]{\linewidth}{| N X | m{2.2cm} | m{1.5cm} |}
-        \caption{Aussagen zur theoretischen Betrachtung} \\
+    \begin{xltabular}[h]{\linewidth}{| N X | m{2.2cm}|}
+        \caption{Aussagen zur theoretischen Betrachtung mit Durchschnittsergebnis} \\
         \hline
-        \multicolumn{1}{|c}{} & Aussage & Durchschnitt & Varianz \\
+        \multicolumn{1}{|c}{} & Aussage & Durchschnitt \\
         \hline
         \hline
-        \label{q:1} &\hspace{-0.8em}Frequently changing customer requirements represent a challenge to analytics consulting.& cell5 & cell6 \\
+        \label{q:1} &\hspace{-0.8em}Frequently changing customer requirements represent a challenge to analytics consulting.& 4,2\\
         \hline  
-        \label{q:2}&\hspace{-0.8em}Unrealistic customer requirements represent a challenge to analytics consulting. & cell8 & cell9 \\
+        \label{q:2}&\hspace{-0.8em}Unrealistic customer requirements represent a challenge to analytics consulting. & 3,87 \\
         \hline
-        \label{q:3}&\hspace{-0.8em}Consultants misinterpreting customer requirements represent a challenge to analytics consulting. & cell8 & cell9 \\
+        \label{q:3}&\hspace{-0.8em}Consultants misinterpreting customer requirements represent a challenge to analytics consulting. & 3,07  \\
         \hline
-        \label{q:4}&\hspace{-0.8em}Customers having trouble identifying and/or articulating their requirements represents a challenge to analytics consulting.  & cell8 & cell9 \\
+        \label{q:4}&\hspace{-0.8em}Customers having trouble identifying and/or articulating their requirements represents a challenge to analytics consulting.  & 4,07  \\
         \hline
-        \label{q:5}&\hspace{-0.8em}A lack of customer motivation represents a challenge to analytics consulting. & cell8 & cell9 \\
+        \label{q:5}&\hspace{-0.8em}A lack of customer motivation represents a challenge to analytics consulting. & 3,8  \\
         \hline
-        \label{q:6}&\hspace{-0.8em}Consultants misunderstanding the customer during communication represents a challenge to analytics consulting. & cell8 & cell9 \\
+        \label{q:6}&\hspace{-0.8em}Consultants misunderstanding the customer during communication represents a challenge to analytics consulting. & 3,87  \\
         \hline
-        \label{q:7}&\hspace{-0.8em}Customers misunderstanding the consultants during communication represents a challenge to analytics consulting. & cell8 & cell9 \\
+        \label{q:7}&\hspace{-0.8em}Customers misunderstanding the consultants during communication represents a challenge to analytics consulting. & 3,73  \\
         \hline
-        \label{q:8}&\hspace{-0.8em}Not having clear goals for a project represents a challenge to analytics consulting. & cell8 & cell9 \\
+        \label{q:8}&\hspace{-0.8em}Not having clear goals for a project represents a challenge to analytics consulting. & 4,53  \\
         \hline
-        \label{q:9}&\hspace{-0.8em}Distrust between customer and consultants represents a challenge to analytics consulting. & cell8 & cell9 \\
+        \label{q:9}&\hspace{-0.8em}Distrust between customer and consultants represents a challenge to analytics consulting. & 3,73  \\
         \hline
-        \label{q:10}&\hspace{-0.8em}A lack of respect between customers and consultants represents a challenge to analytics consulting. & cell8 & cell9 \\
+        \label{q:10}&\hspace{-0.8em}A lack of respect between customers and consultants represents a challenge to analytics consulting. & 3,47  \\
         \hline
-        \label{q:11}&\hspace{-0.8em}Consultants setting too high expectations represents a challenge to analytics consulting. & cell8 & cell9 \\
+        \label{q:11}&\hspace{-0.8em}Consultants setting too high expectations represents a challenge to analytics consulting. & 2,79  \\
         \hline
-        \label{q:12}&\hspace{-0.8em}Language barriers between customers and consultants represent a challenge to analytics consulting. & cell8 & cell9 \\
+        \label{q:12}&\hspace{-0.8em}Language barriers between customers and consultants represent a challenge to analytics consulting. & 2,67  \\
         \hline
-        \label{q:13}&\hspace{-0.8em}Not frequent enough customer communication represents a challenge to analytics consulting. & cell8 & cell9 \\
+        \label{q:13}&\hspace{-0.8em}Not frequent enough customer communication represents a challenge to analytics consulting. & 3,6  \\
         \hline
-        \label{q:14}&\hspace{-0.8em}A lack of customer feedback represents a challenge to analytics consulting. & cell8 & cell9 \\
+        \label{q:14}&\hspace{-0.8em}A lack of customer feedback represents a challenge to analytics consulting. & 3,73  \\
         \hline
-        \label{q:15}&\hspace{-0.8em}A lack of a suitable communication system between consultant and customer represents a challenge to analytics consulting. & cell8 & cell9 \\
+        \label{q:15}&\hspace{-0.8em}A lack of a suitable communication system between consultant and customer represents a challenge to analytics consulting. & 3,2  \\
         \hline
     \end{xltabular}
-\end{small}
+\end{dontcount}
 
-In der Umfrage werden die Analytics Consultants damit instruiert, die Aussagen auf einer Skala von 1 ``stimme nicht zu'' beziehungsweise ``passiert nie'' bis 5 ``stimme zu'' beziehungsweise ``passiert häufig'' zu bewerten.
+In der Umfrage werden die Analytics Consultants damit instruiert, die Aussagen auf einer symmetrischen 5-Punkt-Likert-Skala von 1 ``stimme nicht zu'' beziehungsweise ``passiert nie'' bis 5 ``stimme zu'' beziehungsweise ``passiert häufig'' zu bewerten \autocite{joshi2015likert}.
+Außerdem wurde die Möglichkeit gelassen in einem Freitextfeld weitere Aspekte hinzuzufügen.
+Insgesamt haben 15 Consultants an der Umfrage teilgenommen.
 
 \end{document}

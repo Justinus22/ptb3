@@ -170,6 +170,24 @@ style=apa,
   \input{#1-words.sum}%
 }
 
+\DeclareCiteCommand{\@citelinktext}
+  {}%
+  {}
+  {}
+  {\printtext[bibhyperref]{\usebibmacro{postnote}}}
+
+\makeatletter
+\DeclareCiteCommand{\@citelinktext}
+{}%
+{}
+{}
+{\printtext[bibhyperref]{\usebibmacro{postnote}}}
+
+\newcommand{\citelinktext}[2]{%
+    \@citelinktext[#2]{#1}%
+}
+\makeatother
+
 \newcounter{rowcntr}[table]
 \renewcommand{\therowcntr}{\arabic{rowcntr}.}
 
@@ -185,6 +203,17 @@ style=apa,
 \usepgfplotslibrary{statistics}
 \usetikzlibrary{plotmarks}
 
+\makeatletter
+\pgfplotsset{
+    boxplot/hide outliers/.code={
+        \def\pgfplotsplothandlerboxplot@outlier{}%
+    }
+}
+\makeatother
+
+
+\newenvironment*{dontcount}{}{}
+%TC:envir dontcount [ignore] displaymath
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -240,6 +269,7 @@ style=apa,
 
 \onehalfspacing
 
+\begin{dontcount}
 \textbf{Sperrvermerk}
 
 Der vorliegende Bericht enthält vertrauliche Daten des Unternehmens SAP SE.
@@ -263,6 +293,7 @@ Der Bericht ist nur den Gutachtern und des Mitgliedern des Prüfungsausschlusses
     Ort, Datum     && \betreuerUnt
 \end{tabular}
 
+\end{dontcount}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%% START
@@ -286,12 +317,14 @@ Der Bericht ist nur den Gutachtern und des Mitgliedern des Prüfungsausschlusses
 \listoffigures
 \addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
 
+\begin{dontcount}
 \section*{Hinweis}
 
 Aus Gründen der besseren Lesbarkeit wird im Text verallgemeinernd die männliche Form verwendet.
 Diese Formulierungen umfassen gleichermaßen weibliche und männliche Personen.
 \clearpage
 
+\end{dontcount}
 %Tabellenverzeichnis, falls nötig: 
 
 %\listoftables
