@@ -4,7 +4,7 @@
 In Abbildung \ref{fig:Kastengrafik} ist eine Kastengrafik zu sehen, die im folgenden zur Analyse der Umfrageergebnisse genutzt wird.
 Die Grafik ist nach Kastengrafik-Konvention aufgebaut und ermöglicht einen Einblick in die Verteilung der Bewertungsergebnisse \autocite{williamson1989box} berechnet durch pgfplots \autocite{feuer2015manal}.
 Der Bewertungsdurchschnitt wird zusätzlich in rot gezeichnet angezeigt.
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \label{fig:Kastengrafik}
 \begin{tikzpicture}
@@ -43,57 +43,38 @@ Der Bewertungsdurchschnitt wird zusätzlich in rot gezeichnet angezeigt.
 \end{tikzpicture}
 \caption{Kastengrafik zur Antwortverteilung}
 \end{figure}
-\begin{center}
-    \begin{tikzpicture}
-        \begin{axis}[
-            width=10cm,
-            view={60}{45},
-            zmin=-0.001,
-            area plot/.style={
-                fill opacity=0.6,
-                draw=cyan!80!black,
-                fill=cyan,
-                mark=none,
-            },
-            ytick={1,...,15},
-            yticklabel=Q\pgfmathprintnumber{\tick},
-        ]
-        \pgfplotsinvokeforeach{8,7,...,1}{
-            \addplot3 [area plot] table [
-                x expr=\coordindex, y expr=#1, z=Q#1,
-            ] {data3d.dat} \closedcycle;
-        }
-        \end{axis}
-    \end{tikzpicture}
-\end{center}
-\begin{figure}[h!]
-\centering
-\label{fig:bereichdurchschnitt}
-    \begin{tikzpicture}
-        \begin{axis}[
-           ybar,
-           symbolic x coords={a,Anforderungen, Verständnis, Umgebungsbedingungen,z},
-           bar width={1.5cm},
-           width={10cm},
-           height={7cm},
-           ylabel={Bewertung},
-           x tick label style={anchor={west},rotate=15},
-           xticklabel pos=upper,
-           xtick=data,
-           ytick={1,...,5},
-           ymax=5,
-           ymin=0,
-           xmin={a},
-           xmax={z},
-           nodes near coords,
-        ]
-       \addplot[fill=cyan, draw=cyan!60!black] coordinates {
-        (Anforderungen,3.8) (Verständnis,3.422222222) (Umgebungsbedingungen,3.613445378)
-        };
-        \end{axis}
-    \end{tikzpicture}
-\caption{durchschnittliche Bewertung nach vorgestellten Bereichen}
-\end{figure}
+
+Die drei höchst bewertesteten Aussagen sind \ref{q:1}, \ref{q:4} und \ref{q:8}.
+Alle drei Aussagen lassen sich in den Bereich \nameref{subsec:anforderungen} einteilen und es lässt sich vermuten, dass dementsprechend die größten Herausforderungen der Kundenkommunikation durch Auswahl von Information entsteht.
+
+% \begin{figure}[H]
+% \centering
+% \label{fig:bereichdurchschnitt}
+%     \begin{tikzpicture}
+%         \begin{axis}[
+%            ybar,
+%            symbolic x coords={a,Anforderungen, Verständnis, Umgebungsbedingungen,z},
+%            bar width={1.5cm},
+%            width={10cm},
+%            height={7cm},
+%            ylabel={Bewertung},
+%            x tick label style={anchor={west},rotate=15},
+%            xticklabel pos=upper,
+%            xtick=data,
+%            ytick={1,...,5},
+%            ymax=5,
+%            ymin=0,
+%            xmin={a},
+%            xmax={z},
+%            nodes near coords,
+%         ]
+%        \addplot[fill=cyan, draw=cyan!60!black] coordinates {
+%         (Anforderungen,3.8) (Verständnis,3.422222222) (Umgebungsbedingungen,3.613445378)
+%         };
+%         \end{axis}
+%     \end{tikzpicture}
+% \caption{durchschnittliche Bewertung nach vorgestellten Bereichen}
+% \end{figure}
 
 
 \end{document}
