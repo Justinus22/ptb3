@@ -1,9 +1,9 @@
 \documentclass[../main.tex]{subfiles}
 \begin{document}
 
-In Abbildung \ref{fig:Kastengrafik} ist eine Kastengrafik zu sehen, die im folgenden zur Analyse der Umfrageergebnisse genutzt wird.
+Abbildung \ref{fig:Kastengrafik} veranschaulicht die Ergebnisse der Umfrage in Form einer Kastengrafik.
 Die Grafik ist nach Kastengrafik-Konvention aufgebaut und ermöglicht einen Einblick in die Verteilung der Bewertungsergebnisse \autocite{williamson1989box} berechnet durch pgfplots \autocite{feuer2015manal}.
-Der Bewertungsdurchschnitt wird zusätzlich in rot gezeichnet angezeigt.
+Außerdem ist der Bewertungsdurchschnitt in Rot gekennzeichnet.
 \begin{figure}[H]
 \centering
 \label{fig:Kastengrafik}
@@ -44,38 +44,20 @@ Der Bewertungsdurchschnitt wird zusätzlich in rot gezeichnet angezeigt.
 \caption{Kastengrafik zur Antwortverteilung}
 \end{figure}
 
-Die drei höchst bewertesteten Aussagen sind \ref{q:1}, \ref{q:4} und \ref{q:8}.
-Alle drei Aussagen lassen sich in den Bereich \nameref{subsec:anforderungen} einteilen und es lässt sich vermuten, dass dementsprechend die größten Herausforderungen der Kundenkommunikation durch Auswahl von Information entsteht.
-
-% \begin{figure}[H]
-% \centering
-% \label{fig:bereichdurchschnitt}
-%     \begin{tikzpicture}
-%         \begin{axis}[
-%            ybar,
-%            symbolic x coords={a,Anforderungen, Verständnis, Umgebungsbedingungen,z},
-%            bar width={1.5cm},
-%            width={10cm},
-%            height={7cm},
-%            ylabel={Bewertung},
-%            x tick label style={anchor={west},rotate=15},
-%            xticklabel pos=upper,
-%            xtick=data,
-%            ytick={1,...,5},
-%            ymax=5,
-%            ymin=0,
-%            xmin={a},
-%            xmax={z},
-%            nodes near coords,
-%         ]
-%        \addplot[fill=cyan, draw=cyan!60!black] coordinates {
-%         (Anforderungen,3.8) (Verständnis,3.422222222) (Umgebungsbedingungen,3.613445378)
-%         };
-%         \end{axis}
-%     \end{tikzpicture}
-% \caption{durchschnittliche Bewertung nach vorgestellten Bereichen}
-% \end{figure}
-
+Die Ergebnisse der Umfrage zeigen, dass keine der Aussagen aus Beratersicht völlig unzutreffend war.
+\\
+Sprachbarrieren zwischen Kunde und Analytics Consultant (12) sowie zu hohe Erwartungen der Kunden (11) wurden als geringste Probleme gesehen. 
+Beide Aussagen wurden am häufigsten mit 2 oder 3 bewertet und liegen im Durchschnitt unter dem Mittelwert 3, treffen also geringfügig eher nicht zu. 
+Beide Aussagen stammen aus dem Herausforderungsbereich Ausdruck (2.2).
+\\
+Die höchst bewerteten Probleme ergeben sich laut Umfrageergebnissen aus unklaren Projektzielen (8), wechselnden Kundenanforderungen während des Projekts (1) und Anforderungen, die seitens der Kunden nicht eindeutig identifiziert oder artikuliert werden können (4).
+Der Bewertungsdurchschnitt dieser Aussagen liegt bei über 4, d. h. diese Probleme haben eine deutliche Tendenz, eher häufiger vorzukommen. 
+Sie stammen aus dem Herausforderungsbereich Anforderungen (2.1) mit der Einschränkung, dass Frage 4 auch auf den Ausdruck zurückgeführt werden kann. 
+\\
+Alle weiteren Aussagen wurden mit über 3, aber unter 4 Punkten im Durchschnitt bewertet, sie treffen also geringfügig eher zu.
+\\
+Der Freifeldtext wurde in vier Fällen benutzt. Eine Aussage bemängelte, dass zwei der Umfrageaussagen unklar gewesen seien. 
+Die drei weiteren Aussagen beschrieben weitere Herausforderungen der Consultants in der Kundenkommunikation. 
 
 \end{document}
 
